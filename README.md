@@ -2,16 +2,16 @@
 home: true
 heroText: 林一彦
 tagline: 「 南船北馬 東奔西走 日日是祝祭 」
-# heroImage: /hero.png
+# heroImage: /preview.gif
 # heroImageStyle: {
-#   maxWidth: '600px',
-#   width: '100%',
-#   display: block,
-#   margin: '9rem auto 2rem',
-#   background: '#fff',
-#   borderRadius: '1rem',
-# }
-bgImageStyle: { height: '450px' }
+#     # maxWidth: '600px',
+#     width: '100%',
+#     display: block,
+#     margin: '9rem auto 2rem',
+#     background: '#fff',
+#     borderRadius: '1rem',
+#   }
+bgImageStyle: { height: '960px' }
 isShowTitleInHome: false
 actionText: Guide
 actionLink: /views/other/guide
