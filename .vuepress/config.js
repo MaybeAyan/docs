@@ -1,3 +1,5 @@
+
+
 module.exports = {
   title: "林一彦",
   description: '永远相信美好的事情即将发生',
@@ -18,6 +20,40 @@ module.exports = {
       "src": "/js/MouseClickEffect.js"
     }]
   ],
+
+  // 插件设置
+  plugins: {
+    "meting":
+    {
+      meting: {
+        server: "netease",
+        type: "playlist",
+        mid: "399978479",
+      },
+      // 不配置该项的话不会出现全局播放器
+      aplayer: {
+        // 吸底模式
+        fixed: true,
+        mini: true,
+        // 自动播放
+        autoplay: true,
+        // 歌曲栏折叠
+        listFolded: true,
+        // 颜色
+        theme: "#c2e9fb",
+        // 播放顺序为随机
+        order: "random",
+        // 初始音量
+        volume: 0.1,
+        // 关闭歌词显示
+        lrcType: 0,
+      },
+      mobile: {
+        // 手机端去掉cover图
+        cover: false,
+      },
+    },
+  },
   theme: 'reco',
   themeConfig: {
     nav: [
@@ -69,7 +105,7 @@ module.exports = {
         link: 'https://www.recoluan.com'
       },
       {
-        title: 'vuepress-theme-reco',
+        title: 'reco',
         desc: 'A simple and beautiful vuepress Blog & Doc theme.',
         avatar: "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
         link: 'https://vuepress-theme-reco.recoluan.com'
@@ -84,7 +120,7 @@ module.exports = {
     // 最后更新时间
     lastUpdated: 'Last Updated',
     // 作者
-    author: 'reco_luan',
+    author: 'Ayan',
     // 作者头像
     authorAvatar: '/aimyon.jpg',
     // 备案号
@@ -112,5 +148,5 @@ module.exports = {
   },
   markdown: {
     lineNumbers: true
-  }
-}  
+  },
+}

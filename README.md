@@ -1,7 +1,7 @@
 ---
 home: true
-heroText:
-tagline:
+heroText: 林一彦
+tagline: 「 南船北馬 東奔西走 日日是祝祭 」
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',
