@@ -155,9 +155,9 @@ module.exports = {
     // 作者头像
     authorAvatar: '/aimyon.jpg',
     // 备案号
-    record: 'xxxx',
+    // record: 'xxxx',
     // 项目开始时间
-    startYear: '2017'
+    startYear: '2021',
     /**
      * 密钥 (if your blog is private)
      */
@@ -172,10 +172,10 @@ module.exports = {
      * valine 设置 (if you need valine comment )
      */
 
-    // valineConfig: {
-    //   appId: '...',// your appId
-    //   appKey: '...', // your appKey
-    // }
+    valineConfig: {
+      appId: 'ghDCBwuR22YO5rPLDfpSjdGu-gzGzoHsz',// your appId
+      appKey: '8YImIiSkruo2HBkVxdQTURbP', // your appKey
+    }
   },
   markdown: {
     lineNumbers: true
