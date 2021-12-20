@@ -12,5 +12,8 @@
     "vuepress-plugin-helper-live2d": "^1.0.2",
     "vuepress-plugin-meting": "^0.3.1",
     "vuepress-theme-reco": "1.6.10"
+  },
+  "dependencies": {
+    "increase-memory-limit": "^1.0.7"
   }
 }
