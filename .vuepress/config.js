@@ -76,6 +76,13 @@ module.exports = {
           opacity: 0.8 // 模型透明度(default: 0.8)
         }
       }
+    },
+    "dynamic-title": {
+      showIcon: "/favicon.ico",
+      showText: "(/≧▽≦/)咦！又好了！",
+      hideIcon: "/failure1.ico",
+      hideText: "(●—●)喔哟，崩溃啦！",
+      recoverTime: 2000
     }
   },
   theme: 'reco',

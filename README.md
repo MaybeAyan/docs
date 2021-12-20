@@ -4,7 +4,7 @@ heroText: 林一彦
 tagline: 「 南船北馬 東奔西走 日日是祝祭 」
 # heroImage: /preview.gif
 # heroImageStyle: {
-#     # maxWidth: '600px',
+#     maxWidth: '1920px',
 #     width: '100%',
 #     display: block,
 #     margin: '9rem auto 2rem',
