@@ -6,6 +6,7 @@ module.exports = {
   dest: 'public',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['link', { rel: 'stylesheet', href: 'https://cdn.bootcdn.net/ajax/libs/font-awesome/5.15.3/css/all.css' }],
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }],
     // 引入JQuery
     ["script", {
@@ -88,30 +89,36 @@ module.exports = {
   theme: 'reco',
   themeConfig: {
     nav: [
-      { text: '主页', link: '/', icon: 'reco-home' },
-      { text: '时间线', link: '/timeline/', icon: 'reco-date' },
+      { text: '主页', link: '/', icon: 'fas fa-house-user' },
+      { text: '时间线', link: '/timeline/', icon: 'fas fa-clock' },
       {
         text: '文章',
-        icon: 'reco-message',
+        icon: 'fas fa-bars',
         items: [
           { text: '随笔', link: '/docs/literary' }
         ]
       },
       {
         text: '工具',
-        icon: 'reco-message',
+        icon: 'fas fa-tools',
         items: [
-          { text: 'GitHub', link: 'https://github.com/recoluan', icon: 'reco-github' },
-          { text: 'CssColor', link: 'https://webgradients.com/' },
-          { text: 'favicon', link: 'https://www.bitbug.net/' },
-          { text: 'iconfont', link: 'https://www.bitbug.net/' }
+          { text: 'GitHub', link: 'https://github.com/recoluan', icon: 'fab fa-github' },
+          { text: 'CssColor', link: 'https://webgradients.com/', icon: 'fas fa-palette' },
+          { text: 'favicon', link: 'https://www.bitbug.net/', icon: 'far fa-bookmark' },
+          { text: 'iconfont', link: 'https://www.bitbug.net/', icon: 'far fa-circle' }
         ]
       },
       {
+        text: '留言板',
+        icon: 'far fa-comment-alt',
+        link: '/comment/'
+      },
+      {
         text: '关于',
-        icon: 'address-card',
+        icon: 'far fa-user',
         link: '/aboutMe/'
       }
+
     ],
     sidebar: {
       '/docs/literary/': [
@@ -126,11 +133,13 @@ module.exports = {
     blogConfig: {
       category: {
         location: 2, // 在导航栏菜单中所占的位置，默认2
-        text: '分类' // 默认 “分类”
+        text: '分类', // 默认 “分类”
+        icon: 'fas fa-bars'
       },
       tag: {
         location: 3, // 在导航栏菜单中所占的位置，默认3
-        text: '标签' // 默认 “标签”
+        text: '标签', // 默认 “标签”
+        icon: 'fas fa-tag'
       }
     },
     friendLink: [

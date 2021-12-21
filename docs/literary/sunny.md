@@ -1,11 +1,11 @@
 ---
-title: '「 前往阳光普照之处 」'
+title: '「前往阳光普照之处」'
 date: 2021-12-10 01:54
 categories:
   - 随笔 MySoul
 ---
 
-![图 5](../../images/b62f5a2691ec9ea3ee3f2ad2c347e9ad0b275dc6380be1484b0b8cc7760e0e43.png)
+![图 7](../../images/7ec00cab1f16832ef3313f38bacd0e529d3d8c0293be9b5ef384bdca83f32ec8.png)
 
 最近如何，你好吗？
 

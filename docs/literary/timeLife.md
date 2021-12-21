@@ -5,6 +5,12 @@ categories:
   - 随笔 MySoul
 ---
 
+:::tip
+彼时彼刻，彷如此时此刻
+:::
+
+<!-- more -->
+
 ![图 2](../../images/cbfc4eb9333f3cb6d696732ef77fc5057959b4a12b6ce86c64a3eb29b9890d44.png)
 
 好久不见 你好吗？
