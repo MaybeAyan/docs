@@ -79,9 +79,9 @@ module.exports = {
     },
     "dynamic-title": {
       showIcon: "/favicon.ico",
-      showText: "(/≧▽≦/)咦!又好了!",
+      showText: "Loading!",
       hideIcon: "/failure1.ico",
-      hideText: "(●—●)喔哟，崩溃啦!",
+      hideText: "Leaving!",
       recoverTime: 2000
     }
   },
@@ -94,7 +94,7 @@ module.exports = {
         text: '文章',
         icon: 'reco-message',
         items: [
-          { text: 'vuepress-reco', link: '/docs/theme-reco/' }
+          { text: '随笔', link: '/docs/literary/' }
         ]
       },
       {
@@ -106,10 +106,15 @@ module.exports = {
           { text: 'favicon', link: 'https://www.bitbug.net/' },
           { text: 'iconfont', link: 'https://www.bitbug.net/' }
         ]
+      },
+      {
+        text: '关于',
+        icon: 'address-card',
+        link: '/aboutMe/'
       }
     ],
     sidebar: {
-      '/docs/theme-reco/': [
+      '/docs/literary/': [
         '',
         'theme',
         'plugin',
@@ -141,13 +146,18 @@ module.exports = {
         avatar: "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
         link: 'https://vuepress-theme-reco.recoluan.com'
       },
+      {
+        title: '橘子',
+        desc: 'latte and cat',
+        link: 'https://blog.smallsunnyfox.com/'
+      }
     ],
     logo: '/logo.png',
     // 搜索设置
     search: true,
     searchMaxSuggestions: 10,
     // 自动形成侧边导航
-    // sidebar: 'auto',
+    sidebar: 'auto',
     // 最后更新时间
     lastUpdated: 'Last Updated',
     // 作者
