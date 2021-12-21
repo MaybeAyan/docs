@@ -94,7 +94,7 @@ module.exports = {
         text: '文章',
         icon: 'reco-message',
         items: [
-          { text: '随笔', link: '/docs/literary/' }
+          { text: '随笔', link: '/docs/literary' }
         ]
       },
       {
