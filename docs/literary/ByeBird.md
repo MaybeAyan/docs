@@ -1,6 +1,6 @@
 ---
 title: '「 再见，黑鸟 」'
-date: 2021-11-04 01:06
+date: 2021-11-04
 categories:
   - 随笔 MySoul
 ---

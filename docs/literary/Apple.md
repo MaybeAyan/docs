@@ -1,6 +1,6 @@
 ---
 title: '「被咬掉一口的苹果」'
-date: 2021-10-30 00:27
+date: 2021-10-30
 categories:
   - 随笔 MySoul
 ---

@@ -1,6 +1,6 @@
 ---
 title: '「前往阳光普照之处」'
-date: 2021-12-10 01:54
+date: 2021-12-10
 categories:
   - 随笔 MySoul
 ---

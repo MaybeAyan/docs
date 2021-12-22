@@ -1,6 +1,6 @@
 ---
 title: '「一些鼓励」'
-date: 2021-10-23 01:22
+date: 2021-10-23
 categories:
   - 随笔 MySoul
 ---
