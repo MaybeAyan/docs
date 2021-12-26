@@ -4,7 +4,7 @@ date: 2021-12-17
 tags:
   - js小知识
 categories:
-  - JavaScript
+  - 前端学习
 ---
 
 ## 正则表达式相关

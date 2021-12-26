@@ -4,7 +4,7 @@ date: 2021-12-20
 tags:
   - JQuery
 categories:
-  - JQuery
+  - 前端学习
 ---
 
 ### jQuery 对象和 DOM 对象的区别

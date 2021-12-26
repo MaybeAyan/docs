@@ -2,7 +2,7 @@
 title: '「一些鼓励」'
 date: 2021-10-23
 categories:
-  - 随笔 MySoul
+  - 随笔
 ---
 
 ![图 11](../../images/76292a3c6d2f2b075e149281549e58811856998dece04a9e026108bf9e08850d.png)  

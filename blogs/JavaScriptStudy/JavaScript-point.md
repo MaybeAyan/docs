@@ -4,7 +4,7 @@ date: 2021-12-17
 tags:
   - Js 基础
 categories:
-  - JavaScript
+  - 前端学习
 ---
 
 ## JavaScipt 查缺补漏

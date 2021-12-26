@@ -2,7 +2,7 @@
 title: '前端学习路线'
 date: 2021-12-22
 categories:
-  - 前端学习路线
+  - 前端学习
 sticky: true
 ---
 

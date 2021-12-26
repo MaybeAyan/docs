@@ -4,7 +4,7 @@ date: 2021-12-17
 tags:
   - Git
 categories:
-  - Git
+  - 前端学习
 ---
 
 ### 项目中遇到的小问题

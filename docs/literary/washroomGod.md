@@ -2,10 +2,10 @@
 title: '「卫生间的圣母像」'
 date: 2021-12-17
 categories:
-  - 随笔 梦的素材
+  - 随笔
 ---
 
-![图 1](../../images/02a435a1f1b6d806c6cac831d1114a2d66d0a0a7c85a6a3cdf0e90d81b6787e3.jpeg)  
+![图 1](../../images/02a435a1f1b6d806c6cac831d1114a2d66d0a0a7c85a6a3cdf0e90d81b6787e3.jpeg)
 
 阿 U 分手了
 

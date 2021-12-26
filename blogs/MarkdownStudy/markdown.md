@@ -3,8 +3,6 @@ title: Markdown 语法
 date: 2021-12-17
 tags:
   - Md语法
-categories:
-  - Markdown
 ---
 
 ## 1、什么是 Markdown 语法

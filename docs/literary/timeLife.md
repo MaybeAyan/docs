@@ -2,7 +2,7 @@
 title: '「 余生皆假期 」'
 date: 2021-11-22
 categories:
-  - 随笔 MySoul
+  - 随笔
 ---
 
 :::tip

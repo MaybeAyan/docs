@@ -4,7 +4,7 @@ date: 2021-12-20
 tags:
   - node
 categories:
-  - Node
+  - 前端学习
 ---
 
 ## 命令行窗口

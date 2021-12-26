@@ -1,5 +1,3 @@
-
-
 module.exports = {
   title: "林一彦",
   description: '永远相信美好的事情即将发生',
@@ -89,18 +87,18 @@ module.exports = {
   theme: 'reco',
   themeConfig: {
     nav: [
-      { text: '主页', link: '/', icon: 'fas fa-house-user' },
-      { text: '时间线', link: '/timeline/', icon: 'fas fa-clock' },
+      { text: '主页', link: '/', icon: 'reco-home' },
+      { text: '时间线', link: '/timeline/', icon: 'reco-date' },
       {
         text: '文章',
-        icon: 'fas fa-bars',
+        icon: 'reco-document',
         items: [
-          { text: '随笔', link: '/docs/literary' }
+          { text: '随笔', link: '/docs/literary/' }
         ]
       },
       {
         text: '工具',
-        icon: 'fas fa-tools',
+        icon: 'reco-other',
         items: [
           { text: 'GitHub', link: 'https://github.com/recoluan', icon: 'fab fa-github' },
           { text: 'CssColor', link: 'https://webgradients.com/', icon: 'fas fa-palette' },
@@ -110,22 +108,28 @@ module.exports = {
       },
       {
         text: '留言板',
-        icon: 'far fa-comment-alt',
+        icon: 'reco-blog',
         link: '/comment/'
       },
       {
         text: '关于',
-        icon: 'far fa-user',
+        icon: 'reco-account',
         link: '/aboutMe/'
       }
 
     ],
     sidebar: {
       '/docs/literary/': [
-        '',
-        'theme',
-        'plugin',
-        'api'
+        '1999',
+        'Apple',
+        'ByeBird',
+        'MoonCake',
+        'shengdan',
+        'sunny',
+        'washroomGod',
+        'timelife',
+        'SomeSplit',
+        'shishanxiusi',
       ]
     },
     type: 'blog',
@@ -134,12 +138,10 @@ module.exports = {
       category: {
         location: 2, // 在导航栏菜单中所占的位置，默认2
         text: '分类', // 默认 “分类”
-        icon: 'fas fa-bars'
       },
       tag: {
         location: 3, // 在导航栏菜单中所占的位置，默认3
         text: '标签', // 默认 “标签”
-        icon: 'fas fa-tag'
       }
     },
     friendLink: [

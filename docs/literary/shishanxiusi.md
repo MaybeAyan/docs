@@ -2,7 +2,7 @@
 title: '寺山修司如是说'
 date: 2021-10-13
 categories:
-  - 诗
+  - 随笔
 ---
 
 ![图 15](../../images/6b1a114a920fb8004e9b4030d754d1fd07f14a67b1f52061997a7a22dc24120b.png)
@@ -45,7 +45,7 @@ categories:
 
 海是凋零，眼泪是复活
 
-![图 18](../../images/415341a5216b6c88e049ab215eb4212b4bccf9ef7b8dd4b86ee6d5bf813973c0.png)  
+![图 18](../../images/415341a5216b6c88e049ab215eb4212b4bccf9ef7b8dd4b86ee6d5bf813973c0.png)
 
 ## 小小的恋爱故事
 

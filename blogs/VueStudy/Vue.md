@@ -4,7 +4,7 @@ date: 2021-12-17
 tags:
   - Vue基础
 categories:
-  - Vue
+  - 前端学习
 ---
 ### Vue 指令相关的使用
 

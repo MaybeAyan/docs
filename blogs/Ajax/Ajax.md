@@ -4,7 +4,7 @@ date: 2021-12-20
 tags:
   - Ajax
 categories:
-  - Ajax
+  - 前端学习
 ---
 
 ### URL 地址的组成部分

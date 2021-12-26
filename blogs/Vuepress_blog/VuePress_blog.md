@@ -4,8 +4,9 @@ date: 2021-12-17
 tags:
   - Vuepress
 categories:
-  - Vue
+  - 前端学习
 ---
+
 ## VuePress_blog 搭建
 
 ### 前期准备

@@ -2,7 +2,7 @@
 title: '「我的大学」'
 date: 2021-12-24
 categories:
-  - 随笔 MySoul
+  - 随笔
 ---
 
 ![图 1](../../images/044fe4a98937803a5d1883f25347de411a7234ea592aba2ca683e36c05493de4.png)
