@@ -69,7 +69,6 @@ http 协议是基于 TCP/IP 协议的，TCP/IP 是一个可靠的传输协议；
 
 在建立连接的过程中，发生了 3 次握手，保证双方都知道了对方能够正常发送和接收数据
 
-![image-20211114153320718](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20211114153320718.png)
 
 ##### 四次挥手
 
