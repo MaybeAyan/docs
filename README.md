@@ -11,7 +11,7 @@ tagline: 「 南船北馬 東奔西走 日日是祝祭 」
 #     background: '#fff',
 #     borderRadius: '1rem',
 #   }
-bgImage: '/bgimg.jpg'
+bgImage: '/bg89.jpg'
 bgImageStyle: { height: '960px' }
 isShowTitleInHome: false
 actionText: Guide
