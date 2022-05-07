@@ -115,3 +115,60 @@ sticky: true
         清除浮动；
 
         浮动环绕文字问题；
+
+## alrt() 是异步操作吗？
+
+    alert()并不是异步执行的，而是同步执行的，可以用定时器包裹将其变成异步操作
+
+## round() ceil() floor()
+
+```JavaScript
+console.log(Math.round(3.45)) // 3.5 四舍五入
+
+console.log(Math.ceil(3.45)) // 4 最接近的较大整数 ceil 天花板
+console.log(Math.ceil(-3.45)) // -3 最接近的较大整数 ceil 天花板
+
+console.log(Math.floor(3.45)) // 3 最接近的较小整数 floor 地板
+console.log(Math.floor(-3.45)) // -4 最接近的较小整数 floor 地板
+```
+
+## JS 事件传播
+
+    1、事件捕获阶段
+
+        先由文档的根节点 document 事件触发对象，从外向内捕获事件对象
+
+    2、目标阶段
+
+        到达目标时间未知，触发事件本身的程序内容
+
+    3、事件冒泡阶段
+
+        再从目标事件位置往文档的根节点方向回溯，从内向外冒泡事件对象
+
+## 所有的对象都有原型吗？
+
+    不是所有的对象都有原型，用 Object.create(null) 创建的 null 对象是没有原型的
+
+    空对象都有原型，但以上述的形式创建的 null 对象没有，因为它没有继承任何原型方法
+
+    也就是说它的原型链没有上一层
+
+```JavaScript
+var emObj = Object.create(null)
+console.log(emObj) // {} No properties
+console.log([])    // [] length: 0;  _proto_: Array(0)
+console.log({})    // {} _proto_: Object
+```
+
+## apply 和 call
+
+    1、apply 和 call 都属于 function.prototype 的一个方法，是JavaSript 引擎内在实现的
+
+    2、call 的语法：函数名.call(obj,参数1,参数2,参数3......)
+
+       apply 的语法：函数名.apply(boj,[参数1,参数2,参数3......])
+
+    3、功能相同，改变函数里 this 的指向
+
+    4、区别，参数的形式，call 需要用逗号分隔列出，apply 则是数组形式

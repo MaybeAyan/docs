@@ -70,6 +70,17 @@ Ajax 是 Web2.0 技术的核心。
 
 [Vue B 站教程](https://www.bilibili.com/video/BV1zq4y1p7ga?from=search&seid=3664584113656401557&spm_id_from=333.337.0.0)
 
+[Vue3 TypeSript 语法](https://www.bilibili.com/video/BV1wa411e7MG?spm_id_from=333.337.search-card.all.click)
+
+## 关于后续路线的选择
+
+后续的话想深入地学习 Vue3 + TypeScript，然后余力捡回之前学过的C#，
+
+这两门语言还是有很多共通之处的，也希望能去涉猎一点游戏引擎方面的知识，
+
+像 H5，白鹭引擎、unity3d 这些，但目前还是更希望先把web前端学好吧。
+
+
 # 最后
 
 这里只是我个人的学习路线，仅供参考，具体情况视你个人而定，
