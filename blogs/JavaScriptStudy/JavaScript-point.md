@@ -2,7 +2,7 @@
 title: 基础知识点
 date: 2021-12-17
 tags:
-  - Js 基础
+  - JavaScript
 categories:
   - 前端学习
 ---
@@ -10,8 +10,6 @@ categories:
 ## JavaScipt 查缺补漏
 
 <font color=#6495ED size=5 >1、JavaScript 有几种数据类型</font>
-
-<br />
 
 ```
 - number: 数字类型
@@ -39,8 +37,6 @@ categories:
 <hr />
 
 <font color=#6495ED size=5 >2、深拷贝与浅拷贝的区别</font>
-
-<br />
 
 - 深拷贝层层拷贝，浅拷贝只拷贝第一层，深层只是引用
 
@@ -100,8 +96,6 @@ deepClone(o, textObj)
 
 <font color=#6495ED size=5 >3、闭包是什么？</font>
 
-<br />
-
 闭包是一个能读取其他函数内部变量的函数
 
 - 优点：使外部能访问到局部的东西
@@ -112,8 +106,6 @@ deepClone(o, textObj)
 <hr />
 
 <font color=#6495ED size=5 >4、变量提升与函数提升</font>
-
-<br />
 
 变量提升
 
@@ -153,8 +145,6 @@ console.log(fun) // 'Linyiyan'
 
 <font color=#6495ED size=5 >5、isNaN 和 Number.isNaN 的区别</font>
 
-<br />
-
 - isNaN: 除了判断 NaN 为 true ，还会把不能转成数字的判断为 true， 例如 'xxx'
 
 - Number.isNaN: 只有判断 NaN 时为 true ，其余情况都为 false
@@ -164,8 +154,6 @@ console.log(fun) // 'Linyiyan'
 
 <font color=#6495ED size=5 >6、JavaScript 变量在内存中具体存储形式</font>
 
-<br />
-
 - 基本数据类型：存放在 '栈内存' 里
 
 - 引用数据类型：指针存在 '栈内存' 里，指向 '堆内存' 中一块地址，内容存在堆内存中
@@ -174,8 +162,6 @@ console.log(fun) // 'Linyiyan'
 <hr />
 
 <font color=#6495ED size=5 >7、栈内存和堆内存</font>
-
-<br />
 
 |         栈内存         |           堆内存           |
 | :--------------------: | :------------------------: |
@@ -189,8 +175,6 @@ console.log(fun) // 'Linyiyan'
 <hr />
 
 <font color=#6495ED size=5 >8、null 和 undefined 的异同点</font>
-
-<br />
 
 - 相同点：
 
@@ -215,8 +199,6 @@ console.log(fun) // 'Linyiyan'
 
 <font color=#6495ED size=5 >9、== 和 === 的区别</font>
 
-<br />
-
 - == 在比较过程中存在隐式转换
 
 - === 需要类型相同，值相同，才能为 true
@@ -225,8 +207,6 @@ console.log(fun) // 'Linyiyan'
 <hr />
 
 <font color=#6495ED size=5 >10、双等号左右两边的转换规则</font>
-
-<br />
 
 1、null == undefined 为 true
 
@@ -240,8 +220,6 @@ console.log(fun) // 'Linyiyan'
 <hr />
 
 <font color=#6495ED size=5 >11、[] == ![] 为什么是 true</font>
-
-<br />
 
 按照双等号左右两边的转换规则
 
@@ -257,8 +235,6 @@ console.log(fun) // 'Linyiyan'
 <hr />
 
 <font color=#6495ED size=5 >12、0.1 + 0.2 === 0.3,对吗？</font>
-
-<br />
 
 不对，JavaScript 的计算存在精度丢失的问题
 
@@ -279,8 +255,6 @@ console.log(0.1+0.2 === 0.3) // false
 <hr />
 
 <font color=#6495ED size=5 >13、什么是匿名函数？</font>
-
-<br />
 匿名函数：就是没有函数名的函数
 
 ```JavaScript
@@ -296,8 +270,6 @@ console.log(0.1+0.2 === 0.3) // false
 
 <font color=#6495ED size=5 >14、绑定点击事件有几种方式？</font>
 
-<br />
-
 - `xxx.onclick = function(){}`
 
 - `<xxx onclick=""></xxx>`
@@ -309,16 +281,13 @@ console.log(0.1+0.2 === 0.3) // false
 
 <font color=#6495ED size=5 >15、addEventListener 的第三个参数是干嘛的？</font>
 
-<br />
-
 第三个变量传一个布尔值，需不需要阻止冒泡，默认是 false，不阻止冒泡
 
 <br />
+
 <hr />
 
 <font color=#6495ED size=5 >16、JavaScript 的事件流模型有哪些？</font>
-
-<br />
 
 - 事件冒泡：由最具体的元素接收，并往上传播
 

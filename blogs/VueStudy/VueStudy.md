@@ -2,7 +2,7 @@
 title: Vue 学习问题
 date: 2021-12-17
 tags:
-  - Vue项目问题
+  - Vue
 categories:
   - 前端学习
 ---

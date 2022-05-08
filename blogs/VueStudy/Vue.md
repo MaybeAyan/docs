@@ -2,7 +2,7 @@
 title: Vue
 date: 2021-12-17
 tags:
-  - Vue基础
+  - Vue
 categories:
   - 前端学习
 ---

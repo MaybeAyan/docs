@@ -2,7 +2,7 @@
 title: 常用的小知识
 date: 2021-12-17
 tags:
-  - js小知识
+  - JavaScript
 categories:
   - 前端学习
 ---
