@@ -107,6 +107,11 @@ module.exports = {
         ]
       },
       {
+        text:'PhotoAlbum',
+        icon:'reco-npm',
+        link:'https://maybeayan.github.io/photoAlbum/'
+      },
+      {
         text: '留言板',
         icon: 'reco-blog',
         link: '/comment/'
