@@ -90,13 +90,6 @@ module.exports = {
       { text: '主页', link: '/', icon: 'reco-home' },
       { text: '时间线', link: '/timeline/', icon: 'reco-date' },
       {
-        text: '文章',
-        icon: 'reco-document',
-        items: [
-          { text: '随笔', link: '/docs/literary/' }
-        ]
-      },
-      {
         text: '工具',
         icon: 'reco-other',
         items: [
@@ -125,16 +118,7 @@ module.exports = {
     ],
     sidebar: {
       '/docs/literary/': [
-        '1999',
-        'Apple',
-        'ByeBird',
-        'MoonCake',
-        'shengdan',
-        'sunny',
-        'washroomGod',
-        'timelife',
-        'SomeSplit',
-        'shishanxiusi',
+        'shengdan'
       ]
     },
     type: 'blog',

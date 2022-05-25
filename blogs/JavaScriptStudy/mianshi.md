@@ -172,3 +172,63 @@ console.log({})    // {} _proto_: Object
     3、功能相同，改变函数里 this 的指向
 
     4、区别，参数的形式，call 需要用逗号分隔列出，apply 则是数组形式
+
+## css预处理语言（less、sass等）
+
+    好处：
+
+        1、支持跨浏览器兼容
+
+        2、使用嵌套语句，更简洁干净
+
+        3、能够使用变量，更好地实现维护
+
+        4、提供一系列运算符，使编码更快，更省时
+
+        5、提供@import规则和合并属性
+
+
+## 类在ES5中的实现
+
+``` JavaScript
+//1、构造函数
+function Person (name,age){
+    this.name = name
+    this.age = age
+    this.say = function(){
+        console.log(`我是${this.name}`)
+    }
+}
+
+zs = new Person('张三',18)
+zs.say() // 我是张三
+console.log(zs.name) // 张三
+
+// 优点：通过new出来的每个实例都有一份属于自身的数据。
+
+// 缺点：在定义函数的时候，内存造成了很大的浪费。例如上例中的say()函数。
+
+
+// 2、原型对象
+function Person() {}
+Person.prototype.say = function() { console.log(`我是${ this.name }`);}; 
+Person.prototype.name = '张三';
+Person.prototype.age = 16;
+Person.prototype.sex = '男';
+let zs = new Person('张三', 16, '男');
+zs.say();		// 我是张三
+console.log(zs.name);		// 张三
+
+// 优点：共用一个类中的方法，节省了大量的存储空间。
+
+// 缺点：所有实例共用一份数据，数据赋值和使用比较麻烦。
+
+
+// 3.构造函数法 + 原型对象法。
+function Person(name, age, sex) {
+	this.name = name;
+	this.age = age;
+	this.sex = sex;
+}
+Person.prototype.say = function() { console.log(`我是${ this.name }`); };
+```
